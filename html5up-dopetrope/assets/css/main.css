@@ -1121,7 +1121,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #9e0000;
+		color: #252122;
 		font-weight: 700;
 	}
 
@@ -1131,7 +1131,7 @@
 	}
 
 	a {
-		color: #9e0000;
+		color: #d52349;
 		text-decoration: underline;
 	}
 
@@ -1304,7 +1304,7 @@
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #9e0000;
+		background: #d52349;
 		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
@@ -1319,7 +1319,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #7b0000;
+			background: #e53359;
 		}
 
 		input[type="button"]:active,
@@ -1446,7 +1446,7 @@
 		position: absolute;
 		left: 0;
 		top: 1.3em;
-		background-color: #9e0000;
+		background-color: #d52349;
 		height: 3.5em;
 		text-align: center;
 		color: #fff;
@@ -1461,7 +1461,7 @@
 			position: absolute;
 			bottom: 0;
 			right: -1.2em;
-			border-left: solid 1.25em #9e0000;
+			border-left: solid 1.25em #d52349;
 			border-top: solid 1.8em transparent;
 			border-bottom: solid 1.8em transparent;
 		}
@@ -1611,7 +1611,7 @@
 		.icon.featured {
 			position: relative;
 			display: inline-block;
-			background-color: #9e0000;
+			background-color: #d52349;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -1631,7 +1631,7 @@
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #9e0000;
+				border-top: solid 2em #d52349;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
@@ -1655,15 +1655,16 @@
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/ReRoutLab_logo.jpg");
+		background: #CCE8F4 url("../../images/pic01.jpg");
 		background-position: center center;
-		background-size: auto 40%;
-		background-repeat:round;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
 		text-align: center;
 	}
 
 		#banner header {
-			background-color: #9e0000;
+			background-color: #252122;
+			background-color: rgba(34, 30, 31, 0.98);
 		}
 
 			#banner header h2 {
@@ -1672,7 +1673,7 @@
 			}
 
 			#banner header p {
-				color: #fff;
+				color: #d52349;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -1947,7 +1948,7 @@
 					}
 
 					#nav > ul > li.current > a {
-						background: #9e0000;
+						background: #d52349;
 						color: #fff !important;
 						font-weight: 700;
 					}
